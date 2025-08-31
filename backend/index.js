@@ -17,7 +17,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
- origin:["https://ecommerce-frontend-lgav.onrender.com" , "https://ecommerce-admin-xbcm.onrender.com"],
+ origin:["https://ecommerce-frontend-lgav.onrender.com" , "https://ecommerce-aiadmin.onrender.com"],
  credentials:true
 }))
 
